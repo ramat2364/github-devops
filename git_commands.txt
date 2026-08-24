@@ -1,5 +1,8 @@
 git init
 git status
-git add testing.js 
+git add testing.js /git add .
 git commit -m "initial commit"
 git restore  testing.js 
+git remote add origin https://github.com/ramat2364/github-devops.git
+git remote -v
+git push origin master
